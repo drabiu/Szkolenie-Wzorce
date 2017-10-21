@@ -12,5 +12,10 @@ namespace Jedzenie
         {
             throw new NotImplementedException();
         }
+
+        public override IBasketVerifier GetVerifier()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

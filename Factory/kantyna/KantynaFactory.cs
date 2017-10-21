@@ -10,6 +10,11 @@ namespace Jedzenie
             return new KantynaExampleMenu();
         }
 
+        public override IBasketVerifier GetVerifier()
+        {
+            return new MixedVerifier();
+        }
+
         private class KantynaExampleMenu : IMenu
         {
             public List<IMenuItem> Items()

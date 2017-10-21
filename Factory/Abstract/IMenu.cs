@@ -9,5 +9,6 @@ namespace Jedzenie
     public interface IMenu
     {
         List<IMenuItem> Items();
+        //void Select();
     }
 }

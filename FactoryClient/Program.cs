@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Factory;
 
 namespace Jedzenie
 {
@@ -17,6 +18,17 @@ namespace Jedzenie
 
             var menu = factory.GetMenu();
             ShowMenu(menu.Items());
+
+            var order = factory.CreateBasket();
+
+            order.Add(menu.Items()[0]);
+            order.Add(menu.Items()[2]);
+
+            var verify = factory.GetVerifier();
+            if (verify.Verify(order))
+            {
+                Console.WriteLine("można zamówić");
+            }
 
             Console.ReadKey();
         }

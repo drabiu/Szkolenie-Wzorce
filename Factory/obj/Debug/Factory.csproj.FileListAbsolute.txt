@@ -8,6 +8,5 @@ C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Factory\bin\Debug\x
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Factory\bin\Debug\xunit.assert.xml
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Factory\bin\Debug\xunit.core.xml
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Factory\bin\Debug\xunit.execution.desktop.xml
-C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Factory\obj\Debug\Factory.csprojResolveAssemblyReference.cache
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Factory\obj\Debug\Factory.dll
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Factory\obj\Debug\Factory.pdb

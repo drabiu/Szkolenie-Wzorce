@@ -13,6 +13,11 @@ namespace Jedzenie
             return new EmptyMenu();
         }
 
+        public override IBasketVerifier GetVerifier()
+        {
+            return new EmptyVerifier();
+        }
+
         private class EmptyMenu : IMenu
         {
             public List<IMenuItem> Items()
@@ -20,5 +25,5 @@ namespace Jedzenie
                 return new List<IMenuItem>();
             }
         }
-    }   
+    }
 }
