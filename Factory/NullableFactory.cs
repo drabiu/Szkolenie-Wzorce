@@ -10,7 +10,15 @@ namespace Jedzenie
     {
         public override IMenu GetMenu()
         {
-            throw new NotImplementedException();
+            return new EmptyMenu();
         }
-    }
+
+        private class EmptyMenu : IMenu
+        {
+            public List<IMenuItem> Items()
+            {
+                return new List<IMenuItem>();
+            }
+        }
+    }   
 }

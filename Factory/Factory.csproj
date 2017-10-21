@@ -65,6 +65,7 @@
     <Compile Include="Interfaces\IMenuItem.cs" />
     <Compile Include="KantynaFactory.cs" />
     <Compile Include="LudoviskoFactory.cs" />
+    <Compile Include="MenuItem.cs" />
     <Compile Include="NoVegeFactory.cs" />
     <Compile Include="NullableFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
