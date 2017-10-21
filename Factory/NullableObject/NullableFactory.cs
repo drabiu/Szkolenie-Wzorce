@@ -18,6 +18,11 @@ namespace Jedzenie
             return new EmptyVerifier();
         }
 
+        public override IMakeOrder CreateOrder()
+        {
+            return new EmptyMakeOrder();
+        }
+
         private class EmptyMenu : IMenu
         {
             public List<IMenuItem> Items()

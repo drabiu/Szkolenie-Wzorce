@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.JScript" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -60,20 +61,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\AbstractFactory.cs" />
+    <Compile Include="Abstract\IMakeOrder.cs" />
+    <Compile Include="MakeOrder.cs" />
+    <Compile Include="MakeOrderAdapter.cs" />
     <Compile Include="Basket.cs" />
     <Compile Include="Abstract\IBasket.cs" />
     <Compile Include="Abstract\IBasketVerifier.cs" />
-    <Compile Include="EmptyVerifier.cs" />
+    <Compile Include="NullableObject\EmptyMakeOrder.cs" />
+    <Compile Include="NullableObject\EmptyVerifier.cs" />
     <Compile Include="FlighweightFactory.cs" />
     <Compile Include="Abstract\IMenu.cs" />
     <Compile Include="Abstract\IMenuItem.cs" />
-    <Compile Include="KantynaBasketVerifier.cs" />
-    <Compile Include="KantynaFactory.cs" />
-    <Compile Include="LudoviskoFactory.cs" />
+    <Compile Include="kantyna\KantynaBasketVerifier.cs" />
+    <Compile Include="kantyna\KantynaFactory.cs" />
+    <Compile Include="ludovisko\LudoviskoBasketVerifier.cs" />
+    <Compile Include="ludovisko\LudoviskoFactory.cs" />
+    <Compile Include="ludovisko\LudoviskoMenu.cs" />
+    <Compile Include="ludovisko\LudoviskoMenuItem.cs" />
     <Compile Include="MenuItem.cs" />
     <Compile Include="MixedVerifier.cs" />
     <Compile Include="NoVegeFactory.cs" />
-    <Compile Include="NullableFactory.cs" />
+    <Compile Include="NullableObject\NullableFactory.cs" />
     <Compile Include="PizzaVerifier.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

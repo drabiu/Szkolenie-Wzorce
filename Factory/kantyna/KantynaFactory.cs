@@ -15,6 +15,11 @@ namespace Jedzenie
             return new MixedVerifier();
         }
 
+        public override IMakeOrder CreateOrder()
+        {
+            return new MakeOrder();
+        }
+
         private class KantynaExampleMenu : IMenu
         {
             public List<IMenuItem> Items()

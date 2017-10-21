@@ -12,5 +12,7 @@ namespace Jedzenie
         }
 
         public abstract IBasketVerifier GetVerifier();
+
+        public abstract IMakeOrder CreateOrder();
     }
 }

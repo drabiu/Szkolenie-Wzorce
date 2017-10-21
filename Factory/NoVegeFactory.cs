@@ -17,5 +17,10 @@ namespace Jedzenie
         {
             throw new NotImplementedException();
         }
+
+        public override IMakeOrder CreateOrder()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

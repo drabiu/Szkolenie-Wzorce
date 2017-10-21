@@ -19,16 +19,19 @@ namespace Jedzenie
             var menu = factory.GetMenu();
             ShowMenu(menu.Items());
 
-            var order = factory.CreateBasket();
+            var basket = factory.CreateBasket();
 
-            order.Add(menu.Items()[0]);
-            order.Add(menu.Items()[2]);
+            basket.Add(menu.Items()[0]);
+            basket.Add(menu.Items()[2]);
 
             var verify = factory.GetVerifier();
-            if (verify.Verify(order))
+            if (verify.Verify(basket))
             {
                 Console.WriteLine("można zamówić");
             }
+
+            var order = factory.CreateOrder();
+            ShowOrder(order.ShowOrderDetails(basket));
 
             Console.ReadKey();
         }
@@ -39,6 +42,19 @@ namespace Jedzenie
             {
                 Console.WriteLine(item);
             }
+        }
+
+        private static void ShowOrder(IEnumerable<IMenuItem> items)
+        {
+            foreach (var item in items)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        public class CosDoSkladaniaZamowienia //Adapter
+        {
+            
         }
     }
 }

@@ -11,5 +11,10 @@ namespace Jedzenie
         public string Name { get; }
 
         public int Number { get; }
+
+        public override string ToString()
+        {
+            return $"{Number}) {Name}";
+        }
     }
 }

@@ -10,4 +10,3 @@ C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\xunit.execution.desktop.xml
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\obj\Debug\Singleton.dll
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\obj\Debug\Singleton.pdb
-C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
