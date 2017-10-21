@@ -1,0 +1,8 @@
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Jedzenie.exe.config
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Jedzenie.exe
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Jedzenie.pdb
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Factory.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Factory.pdb
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\obj\Debug\FactoryClient.csprojResolveAssemblyReference.cache
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\obj\Debug\Jedzenie.exe
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\obj\Debug\Jedzenie.pdb

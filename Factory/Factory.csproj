@@ -59,7 +59,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="AbstractFactory.cs" />
+    <Compile Include="FlighweightFactory.cs" />
+    <Compile Include="Interfaces\IMenu.cs" />
+    <Compile Include="Interfaces\IMenuItem.cs" />
+    <Compile Include="KantynaFactory.cs" />
+    <Compile Include="LudoviskoFactory.cs" />
+    <Compile Include="NoVegeFactory.cs" />
+    <Compile Include="NullableFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

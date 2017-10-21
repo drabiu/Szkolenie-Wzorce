@@ -1,0 +1,13 @@
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\Singleton.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\Singleton.pdb
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\xunit.abstractions.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\xunit.assert.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\xunit.core.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\xunit.execution.desktop.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\xunit.abstractions.xml
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\xunit.assert.xml
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\xunit.core.xml
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\bin\Debug\xunit.execution.desktop.xml
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\obj\Debug\Singleton.csprojResolveAssemblyReference.cache
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\obj\Debug\Singleton.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Singleton\obj\Debug\Singleton.pdb
