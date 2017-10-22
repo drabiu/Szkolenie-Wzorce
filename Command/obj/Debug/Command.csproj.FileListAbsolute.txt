@@ -1,0 +1,7 @@
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Command\bin\Debug\Command.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Command\bin\Debug\Command.pdb
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Command\bin\Debug\Factory.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Command\bin\Debug\Factory.pdb
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Command\obj\Debug\Command.csprojResolveAssemblyReference.cache
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Command\obj\Debug\Command.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Command\obj\Debug\Command.pdb

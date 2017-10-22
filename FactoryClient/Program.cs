@@ -21,8 +21,14 @@ namespace Jedzenie
 
             var basket = factory.CreateBasket();
 
-            basket.Add(menu.Items()[0]);
-            basket.Add(menu.Items()[2]);
+            //tu jest command
+            var executor = new CommandExecutor();
+            executor.Execute(new CommandAddMenuItem(basket, menu.Items()[0]));
+            executor.Execute(new CommandAddMenuItem(basket, menu.Items()[2]));
+
+            //tu jest factory
+//            basket.Add(menu.Items()[0]);
+//            basket.Add(menu.Items()[2]);
 
             var verify = factory.GetVerifier();
             if (verify.Verify(basket))
@@ -50,11 +56,6 @@ namespace Jedzenie
             {
                 Console.WriteLine(item);
             }
-        }
-
-        public class CosDoSkladaniaZamowienia //Adapter
-        {
-            
         }
     }
 }

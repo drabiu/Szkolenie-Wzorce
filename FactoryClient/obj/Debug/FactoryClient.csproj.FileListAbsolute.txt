@@ -6,3 +6,5 @@ C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\D
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\obj\Debug\FactoryClient.csprojResolveAssemblyReference.cache
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\obj\Debug\Jedzenie.exe
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\obj\Debug\Jedzenie.pdb
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Command.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Command.pdb
