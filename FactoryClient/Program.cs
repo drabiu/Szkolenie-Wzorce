@@ -26,10 +26,12 @@ namespace Jedzenie
             executor.Execute(new CommandAddMenuItem(basket, menu.Items()[0]));
             executor.Execute(new CommandAddMenuItem(basket, menu.Items()[2]));
             executor.Execute(new CommandEmptyBasket(basket));
+            executor.Execute(new CommandAddMenuItem(basket, menu.Items()[0]));
+            executor.Execute(new CommandAddMenuItem(basket, menu.Items()[2]));
 
             //tu jest factory
-//            basket.Add(menu.Items()[0]);
-//            basket.Add(menu.Items()[2]);
+            //            basket.Add(menu.Items()[0]);
+            //            basket.Add(menu.Items()[2]);
 
             var verify = factory.GetVerifier();
             if (verify.Verify(basket))
@@ -39,6 +41,9 @@ namespace Jedzenie
 
             var order = factory.CreateOrder();
             ShowOrder(order.ShowOrderDetails(basket));
+
+            Console.WriteLine("Historia komend:");
+            ShowHistory(executor.GetCommandHistory());
 
             Console.ReadKey();
         }
@@ -52,6 +57,14 @@ namespace Jedzenie
         }
 
         private static void ShowOrder(IEnumerable<IMenuItem> items)
+        {
+            foreach (var item in items)
+            {
+                Console.WriteLine(item);
+            }
+        }
+
+        private static void ShowHistory(IEnumerable<string> items)
         {
             foreach (var item in items)
             {
