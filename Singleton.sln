@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{0A7DF235-A34B-48EC-9439-7B087F3477BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOfResponsibility", "ChainOfResponsibility\ChainOfResponsibility.csproj", "{A7406F90-0E85-401F-8734-63D3E1170AA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{35CA5CD9-3D54-4557-BD15-DE82ACC621D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{0A7DF235-A34B-48EC-9439-7B087F3477BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A7DF235-A34B-48EC-9439-7B087F3477BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A7DF235-A34B-48EC-9439-7B087F3477BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7406F90-0E85-401F-8734-63D3E1170AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7406F90-0E85-401F-8734-63D3E1170AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7406F90-0E85-401F-8734-63D3E1170AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7406F90-0E85-401F-8734-63D3E1170AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CA5CD9-3D54-4557-BD15-DE82ACC621D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CA5CD9-3D54-4557-BD15-DE82ACC621D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CA5CD9-3D54-4557-BD15-DE82ACC621D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CA5CD9-3D54-4557-BD15-DE82ACC621D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
