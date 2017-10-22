@@ -19,7 +19,7 @@ namespace Jedzenie
 
         public override IMakeOrder CreateOrder()
         {
-            return new MakeOrder();
+            return new MakeOrderAdapter();
         }
     }
 }

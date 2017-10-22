@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Abstract\AbstractFactory.cs" />
     <Compile Include="Abstract\IMakeOrder.cs" />
+    <Compile Include="ludovisko\LudoviskoAPIClient.cs" />
     <Compile Include="MakeOrder.cs" />
     <Compile Include="MakeOrderAdapter.cs" />
     <Compile Include="Basket.cs" />
