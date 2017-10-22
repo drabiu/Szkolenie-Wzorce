@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryClient", "FactoryCli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.csproj", "{E495EC55-EFAB-49F9-98DC-01B1703951C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTests", "FoodTests\FoodTests.csproj", "{ECF9155C-F98B-4553-BD15-8839260553A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{E495EC55-EFAB-49F9-98DC-01B1703951C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E495EC55-EFAB-49F9-98DC-01B1703951C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E495EC55-EFAB-49F9-98DC-01B1703951C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECF9155C-F98B-4553-BD15-8839260553A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECF9155C-F98B-4553-BD15-8839260553A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECF9155C-F98B-4553-BD15-8839260553A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECF9155C-F98B-4553-BD15-8839260553A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

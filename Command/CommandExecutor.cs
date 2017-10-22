@@ -14,8 +14,16 @@ namespace Jedzenie
 
         public void Execute(ICommand command)
         {
-           command.Execute();
-           _commandHistory.Add(command.ToString());
+            try
+            {
+                command.Execute();
+                _commandHistory.Add(command.ToString());
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;
+            }        
         }
 
         public IEnumerable<string> GetCommandHistory()
