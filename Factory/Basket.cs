@@ -20,5 +20,10 @@ namespace Jedzenie
         {
             return _items;
         }
+
+        public void ClearItems()
+        {
+            _items.Clear();
+        }
     }
 }

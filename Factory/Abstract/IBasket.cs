@@ -6,5 +6,6 @@ namespace Jedzenie
     {
         void Add(IMenuItem item);
         IEnumerable<IMenuItem> GetItems();
+        void ClearItems();
     }
 }

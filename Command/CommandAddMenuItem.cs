@@ -15,7 +15,7 @@ namespace Jedzenie
 
         public void Execute()
         {
-            throw new NotImplementedException();
+           _basket.Add(_menuItem);
         }
     }
 }

@@ -25,6 +25,7 @@ namespace Jedzenie
             var executor = new CommandExecutor();
             executor.Execute(new CommandAddMenuItem(basket, menu.Items()[0]));
             executor.Execute(new CommandAddMenuItem(basket, menu.Items()[2]));
+            executor.Execute(new CommandEmptyBasket(basket));
 
             //tu jest factory
 //            basket.Add(menu.Items()[0]);

@@ -4,9 +4,9 @@ namespace Jedzenie
 {
     public class CommandExecutor
     {
-        public void Execute(ICommand comand)
+        public void Execute(ICommand command)
         {
-            throw new NotImplementedException();
+           command.Execute();
         }
     }
 }
