@@ -28,7 +28,9 @@ namespace Jedzenie
                 {
                     new MenuItem(1, "Salami"),
                     new MenuItem(2, "Kurczak"),
-                    new MenuItem(3, "Pieczarki")
+                    new MenuItem(3, "Pieczarki"),
+                    new MenuItem(4, "na grubym"),
+                    new MenuItem(5, "na cienkim")
                 };
             }           
         }     

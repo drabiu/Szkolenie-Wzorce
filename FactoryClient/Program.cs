@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Decorator;
 using Factory;
 
 namespace Jedzenie
@@ -28,6 +26,13 @@ namespace Jedzenie
             executor.Execute(new CommandEmptyBasket(basket));
             executor.Execute(new CommandAddMenuItem(basket, menu.Items()[0]));
             executor.Execute(new CommandAddMenuItem(basket, menu.Items()[2]));
+
+            var decoratorGruby = new MenuItemNaGrubymDecorator(menu.Items()[3], 18);
+            decoratorGruby = new MenuItemNaGrubymDecorator(decoratorGruby, decoratorGruby.Price);
+            var decoratorCienki = new MenuItemNaCienkimDecorator(menu.Items()[4], 18);
+
+            executor.Execute(new CommandAddMenuItem(basket, decoratorGruby));
+            executor.Execute(new CommandAddMenuItem(basket, decoratorCienki));
 
             //tu jest factory
             //            basket.Add(menu.Items()[0]);

@@ -1,0 +1,7 @@
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Decorator\bin\Debug\Decorator.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Decorator\bin\Debug\Decorator.pdb
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Decorator\bin\Debug\Factory.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Decorator\bin\Debug\Factory.pdb
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Decorator\obj\Debug\Decorator.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\Decorator\obj\Debug\Decorator.pdb

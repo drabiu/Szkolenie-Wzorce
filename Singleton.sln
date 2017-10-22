@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command", "Command\Command.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTests", "FoodTests\FoodTests.csproj", "{ECF9155C-F98B-4553-BD15-8839260553A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{7C0FB6C1-362A-4BCB-B845-75E1E34FF9A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSP", "LSP\LSP.csproj", "{0A7DF235-A34B-48EC-9439-7B087F3477BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{ECF9155C-F98B-4553-BD15-8839260553A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECF9155C-F98B-4553-BD15-8839260553A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECF9155C-F98B-4553-BD15-8839260553A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C0FB6C1-362A-4BCB-B845-75E1E34FF9A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C0FB6C1-362A-4BCB-B845-75E1E34FF9A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C0FB6C1-362A-4BCB-B845-75E1E34FF9A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C0FB6C1-362A-4BCB-B845-75E1E34FF9A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A7DF235-A34B-48EC-9439-7B087F3477BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A7DF235-A34B-48EC-9439-7B087F3477BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A7DF235-A34B-48EC-9439-7B087F3477BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A7DF235-A34B-48EC-9439-7B087F3477BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

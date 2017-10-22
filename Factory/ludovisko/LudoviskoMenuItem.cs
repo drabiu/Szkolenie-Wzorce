@@ -1,3 +1,5 @@
+using System;
+
 namespace Jedzenie
 {
     public class LudoviskoMenuItem : IMenuItem
@@ -12,9 +14,11 @@ namespace Jedzenie
 
         public int Number { get; }
 
+        public decimal Price { get; }
+
         public override string ToString()
         {
-            return $"{Number}) {Name}";
+            return $"{Number}) {Name} : {Price}z³";
         }
     }
 }

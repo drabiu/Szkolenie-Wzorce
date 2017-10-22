@@ -8,3 +8,5 @@ C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\obj\D
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\obj\Debug\Jedzenie.pdb
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Command.dll
 C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Command.pdb
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Decorator.dll
+C:\Users\szkolenie\Desktop\dzien2\Singleton\Szkolenie-Wzorce\FactoryClient\bin\Debug\Decorator.pdb
